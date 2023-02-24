@@ -3,12 +3,24 @@ package dmit2015.model;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * This class models a Rectangle shape.
+ *
+ * @author Dhwanil Patel
+ * @version 2023-02-23
+ */
 @Getter
 @Setter
 public class Rectangle {
 
+    /**
+     * The length of this Rectangle
+     */
     private double length;
 
+    /**
+     * The width of this Rectangle.
+     */
     private double width;
 
     public double getLength() {
